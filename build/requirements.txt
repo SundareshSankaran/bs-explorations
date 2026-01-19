@@ -1,0 +1,9 @@
+bs4
+jupyter
+ipykernel
+pyarrow
+fastparquet
+duckdb
+pandas
+dateparser
+scikit-learn
