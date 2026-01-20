@@ -10,6 +10,8 @@ This tutorial series uses BeautifulSoup (BS4) as the core library, complemented 
 
 The tutorials progress from basic web requests to creating structured datasets, demonstrating real-world scraping scenarios while emphasizing ethical practices, error handling, and data integrity.
 
+Documented wiki for this page is available here: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SundareshSankaran/bs-explorations)
+
 ## Prerequisites
 
 Before diving in, ensure you have:
