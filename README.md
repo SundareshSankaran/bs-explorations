@@ -1,10 +1,12 @@
 # BS Explorations: Web Scraping Tutorials with Beautiful Soup
 #### The good kind of bs. For Beautiful Soup
-Welcome to **BS Explorations**, a tutorial series designed to guide you through the fundamentals and advanced techniques of web scraping using Python, specifically with the Beautiful Soup package. This repository serves as both a hands-on learning resource and the foundation for an upcoming article on foundational web scraping practices.
+Welcome to **BS Explorations**, a tutorial series designed to guide you through the fundamentals and advanced techniques of web scraping using Python, specifically with the Beautiful Soup package. This repository serves as both a hands-on learning resource and the foundation for [this article](https://medium.com/@sundaresh.Sankaran/rediscovering-bs-bs4-i-mean-eede765c9d12) on the basics of BS4.
 
 ## Overview
 
-Web scraping has become an essential skill for data scientists, analysts, and developers who need to extract valuable information from the web. This tutorial series uses BeautifulSoup (BS4) as the core library, complemented by powerful tools like requests for HTTP interactions, pandas for data manipulation, and Jupyter Notebooks for interactive learning.
+Web scraping is frequently undertaken by data scientists, analysts, and developers who need to extract valuable information from the web. With the increasing use of Large Language Models (LLMs), information retrieval techniques used in scraping are also useful in developing semantic segmentation approaches that can enhance or substitute standard chunking approaches.
+
+This tutorial series uses BeautifulSoup (BS4) as the core library, complemented by tools like `requests` for HTTP interactions, `pandas` for data manipulation, and `Jupyter Lab` for interactive learning.
 
 The tutorials progress from basic web requests to creating structured datasets, demonstrating real-world scraping scenarios while emphasizing ethical practices, error handling, and data integrity.
 
@@ -12,10 +14,10 @@ The tutorials progress from basic web requests to creating structured datasets, 
 
 Before diving in, ensure you have:
 
-- **Python 3.8+** installed on your system
+- **Python 3.11+** installed on your system
 - Basic understanding of Python programming
 - Familiarity with HTML structure (helpful but not required)
-- A code editor (VS Code recommended) with Jupyter Notebook support
+- A Python editor (Visual Studio Code recommended) with Jupyter Notebook support
 
 ## Installation
 
@@ -52,10 +54,10 @@ Before diving in, ensure you have:
 
 ## Tutorial Series
 
-This series consists of 5 progressive tutorials, each building upon the previous one. Open the notebooks in the `notebooks/` directory and follow along step by step.
+This series consists of 5 progressive tutorials, each building upon the previous one. Open the notebooks in the [`notebooks/`](/notebooks/) directory and follow along step by step.
 
 ### Tutorial 1: Making a Request
-**File:** `Tutorial_1_Making_A_Request.ipynb`
+**File:** [`Tutorial_1_Making_A_Request.ipynb`](/notebooks/Tutorial_1_Making_A_Request.ipynb)
 
 Learn the basics of making HTTP requests using the `requests` library. We'll cover:
 - Setting up proper headers for web scraping
@@ -65,16 +67,15 @@ Learn the basics of making HTTP requests using the `requests` library. We'll cov
 
 
 ### Tutorial 2: Converting to Soup
-**File:** `Tutorial_2_Converting_to_Soup.ipynb`
+**File:** [`Tutorial_2_Converting_to_Soup.ipynb`](/notebooks/Tutorial_2_Converting_to_Soup.ipynb)
 
 Dive into HTML parsing with BeautifulSoup:
 - Converting raw HTML to a BeautifulSoup object
 - Basic navigation through HTML elements
-- Understanding the DOM structure
 - Extracting text and attributes from tags
 
 ### Tutorial 3: Create Basic Table
-**File:** `Tutorial_3_Create_Basic_Table.ipynb`
+**File:** [`Tutorial_3_Create_Basic_Table.ipynb`](/notebooks/Tutorial_3_Create_Basic_Table.ipynb)
 
 Start structuring scraped data:
 - Extracting tabular data from web pages
@@ -83,21 +84,20 @@ Start structuring scraped data:
 - Simple data export options
 
 ### Tutorial 4: Create Section-wise Long Table
-**File:** `Tutorial_4_Create_section_wise_long_table.ipynb`
+**File:** [`Tutorial_4_Create_section_wise_long_table.ipynb`](/notebooks/Tutorial_4_Create_section_wise_long_table.ipynb)
 
 Handle complex, multi-section data:
-- Scraping data from multiple page sections
-- Merging and consolidating datasets
-- Dealing with inconsistent data structures
+- Scraping data from multiple sections
+- Using HTML attributes to your advantage
 - Advanced BeautifulSoup selectors
 
 ### Tutorial 5: Create Granular Table
-**File:** `Tutorial_5_Create_granular_table.ipynb`
+**File:** [`Tutorial_5_Create_granular_table.ipynb`](/notebooks/Tutorial_5_Create_granular_table.ipynb)
 
 - Fine-tuned element selection
 - Handling nested data structures
 - Data validation and quality checks
-- Optimizing scraping performance
+
 
 ## Running the Tutorials
 
@@ -119,7 +119,7 @@ Handle complex, multi-section data:
 - **duckdb:** Analytical database
 - **scikit-learn:** Machine learning utilities
 
-In case you don't see any of these packages used directly in the notebooks, understand that examples making use of them will emerge in future.
+In case you don't see any of these packages used directly in the notebooks, expect examples making use of them in future.
 
 ## Best Practices Covered
 
@@ -164,7 +164,7 @@ This project is licensed under the Apache 2.0 License - see the LICENSE file for
 
 ## Disclaimer
 
-This tutorial is for educational purposes only. Always respect website terms of service, robots.txt files, and applicable laws when scraping websites. The authors are not responsible for misuse of the techniques presented.
+This tutorial is for educational purposes only. It makes use of Wikipedia to serve as an illustration but does not focus on a specific Wikipedia page or article.  Wikipedia pagge structures are subject to changge.  Always respect website terms of service, robots.txt files, and applicable laws when scraping websites. The authors are not responsible for misuse of the techniques presented.
 
 <!--
 ## Upcoming Article
